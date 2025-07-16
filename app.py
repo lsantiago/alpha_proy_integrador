@@ -48,7 +48,7 @@ def convert_altair_to_matplotlib(chart_data, x_axis, y_axis, color_axis=None):
     
     ax.set_xlabel(x_axis)
     ax.set_ylabel(y_axis)
-    ax.set_title('Gráfico de Dispersión')
+    ax.set_title('Gráfico de Dispersión....')
     ax.grid(True, alpha=0.3)
     
     # Guardar en buffer
